@@ -1,14 +1,16 @@
 /* Markdown */
 :root{
+  /* background-color: #FDB;
+  color: #636; */
 --maincolor: red;
 --bordercl:rebeccapurple;
 --callouctcolor:dodgerblue;
 --hovercolor:navy;
---darkMaincolor: #50fa7b;
+--darkMaincolor: #636;
 }
 html {
   color: #232333;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Press Start 2P';
   font-size: 15px;
   line-height: 1.6em;
 }

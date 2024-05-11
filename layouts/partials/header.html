@@ -12,6 +12,9 @@
 	{{- if isset .Site.Params "favicon" -}}
 	<link rel="icon" type="image/png" href={{ .Site.Params.favicon }} />
 	{{- end -}}
+	<link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+	<link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
